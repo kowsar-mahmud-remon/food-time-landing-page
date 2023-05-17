@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* ============================== */
+.iconRotate {
+  transform: rotate(90deg);
+  background-color: red;
+}

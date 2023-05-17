@@ -1,0 +1,27 @@
+.header-title {
+  animation: header-anim 3s linear infinite;
+}
+
+@keyframes header-anim {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.header-nav-item {
+  animation: header-nav-anim 3s linear infinite;
+}
+
+@keyframes header-nav-anim {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+}

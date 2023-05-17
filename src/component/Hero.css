@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+}
+
+.cycle-photo {
+  /* background-image: url("../../assets/image02.png"); */
+  background-size: cover;
+}
+
+.cycle-bg-img {
+  background-image: url("../assets/image02.png");
+  background-size: cover;
+}
